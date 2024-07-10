@@ -80,10 +80,41 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #msg {
-    font-size: 40px;
+  .game-tittle {
+    padding: 10px;
+    font-size: 50px;
   }
+
+  .game {
+    height: 30vmin;
+    width: 80vmin;
+  }
+
+  .box {
+    font-size: 50px;
+    height: 20vmin;
+    width: 20vmin;
+  }
+  .reset {
+    font-size: 25px;
+  }
+
+  .container {
+    height: 60vh;
+  }
+
+  #new-btn {
+    font-size: 20px;
+  }
+
+  #msg {
+    font-size: 30px;
+    color: rgb(4, 224, 136);
+    font-weight: 800;
+    padding-top: 80vmin;
+  }
+
   .msg-container {
-    height: 100vmin;
+    margin-bottom: 120vmin;
   }
 }
